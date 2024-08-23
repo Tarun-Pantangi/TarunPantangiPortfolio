@@ -25,7 +25,7 @@ const ResumeSection = () => {
             <p className="text-xs"></p>
           </div>
           <motion.a
-            href="https://drive.google.com/file/d/1L3_MqKnAG_68hVi-Wsiyf3cnr8kU05-Y/view"
+            href="https://drive.google.com/file/d/1zLMPtFr6oXjB1kD0XJ-gWmUGLYrg0Std/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="duration-300 hover:bg-sky-400 border hover:text-gray-50 bg-gray-50 font-semibold text-sky-300 px-6 py-3 rounded-full flex flex-row items-center gap-3"
