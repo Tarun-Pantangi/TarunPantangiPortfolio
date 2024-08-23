@@ -29,7 +29,7 @@ const Projects = () => {
               alt={project.name}
               className="h-full w-full object-cover transition-transform duration-500"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-100 backdrop-blur-lg transition-opacity duration-500">
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-100 backdrop-blur-lg">
               <h3 className="mb-2 text-xl">{project.name}</h3>
               <p className="mb-12 p-4">{project.description}</p>
               <a
