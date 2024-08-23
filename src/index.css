@@ -1,57 +1,40 @@
-import { HERO } from "../constants";
-import tarunImg from "../assets/tarun.png";
-import { motion } from "framer-motion";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-const Hero = () => {
-  return (
-    <section 
-      style={{ 
-        backgroundImage: 'url("../src/assets/bg-img.png")', 
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        '@media (min-width: 768px)': {
-          backgroundImage: 'url("../src/assets/bg-img5.png")'
-        }
-      }}
-      className="flex min-h-screen flex-wrap items-center"
-    >
-      <motion.div
-        initial={{ opacity: 0, x: -50 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1 }}
-        className="w-full md:w-1/2"
-      >
-        <div className="w-full md:w-1/2 lg:w-1/2">
-          <h2 className="mt-12 mb-8 p-2 text-4xl font-bold md:text-5xl lg:text-[7rem]">
-            {HERO.name}
-          </h2>
-          <p className="p-2 text-3xl tracking-tighter lg:text-4xl">
-            {HERO.greet}
-          </p>
-          <p className="mb-8 p-2 text-xl">{HERO.description}</p>
-        </div>
-      </motion.div>
-      <motion.div
-        initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1 }}
-        className="w-full md:w-1/2 lg:p-8"
-      >
-        <div className="flex justify-center">
-          <motion.img
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1 }}
-            src={tarunImg}
-            width={400}
-            height={400}
-            alt="Tarun Pantangi"
-            className="rounded-3xl"
-          />
-        </div>
-      </motion.div>
-    </section>
-  );
-};
+html, body{
+  height : 100%;
+  margin : 0;
+}
+body{
+  font-family : "Space Grotesk",sans-serif;
+  background-color: black;
+  color: #fff;
+}
+.bg-img{
+  background-image: url("../src/assets/bg-img.png");
+}
 
-export default Hero;
+.simple-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;  
+  font-size: 14px;  
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;  
+  background-color: #6225e6;  
+  color: #fff;  
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;  
+}
+
+.simple-button:hover {
+  transform: scale(1.1);  
+  background-color: #7d3fbc; 
+}
+html{
+  scroll-behavior: smooth;
+}
