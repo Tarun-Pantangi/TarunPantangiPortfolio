@@ -20,8 +20,8 @@ const App = () => {
         <WorkExperience />
         <EducationSection />
         <Certifications />
-        <ContactForm />
         <Resume />
+        <ContactForm />
         <Footer />
       </div>
     </div>
