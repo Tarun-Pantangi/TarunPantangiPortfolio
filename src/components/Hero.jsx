@@ -12,7 +12,7 @@ const Hero = () => {
         className="w-full md:w-1/2"
       >
         <div className="w-full md:w-1/2 lg:w-1/2">
-          <h2 className="my-8 p-2 text-4xl font-bold md:text-5xl lg:text-[7rem]">
+          <h2 className="mt-12 mb-8 p-2 text-4xl font-bold md:text-5xl lg:text-[7rem]">
             {HERO.name}
           </h2>
           <p className="p-2 text-3xl tracking-tighter lg:text-4xl">
@@ -33,8 +33,8 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
             src={tarunImg}
-            width={400}   
-            height={400}  
+            width={400}
+            height={400}
             alt="Tarun Pantangi"
             className="rounded-3xl"
           />
