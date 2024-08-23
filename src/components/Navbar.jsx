@@ -26,7 +26,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed left-0 right-0 top-2 z-50"> {/* Moved the navbar up by changing top-4 to top-2 */}
+    <nav className="fixed left-0 right-0 top-1 z-50"> 
       {/* Desktop Menu */}
       <div className="mx-auto hidden max-w-3xl items-center justify-center rounded-lg border border-stone-50/30 bg-black/20 py-3 backdrop-blur-lg lg:flex">
         <div className="flex items-center justify-between gap-6">
