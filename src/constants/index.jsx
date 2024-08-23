@@ -161,8 +161,8 @@ export const EXPERIENCES = [
     company: "Indian National Centre for Ocean Information Services (INCOIS)",
     duration: "August 2023 - October 2023",
     description:
-      "As an intern at INCOIS, I developed a user-friendly web application tailored for scientists to filter and access research papers efficiently. Utilizing Angular for front-end development, PHP for server-side scripting, and MySQL for database management, I created a robust and interactive platform. I used JavaScript for dynamic features and Visual Studio Code for development, contributing to a tool that enhances researchers' ability to manage and retrieve scientific documents seamlessly.",
-  },
+      "As an intern at INCOIS, I developed a user-friendly web application tailored for scientists across India to filter and access research papers efficiently. Utilizing Angular for front-end development, PHP for server-side scripting, and MySQL for database management, I created a robust and interactive platform. I used JavaScript for dynamic features and Visual Studio Code for development. This project has been widely adopted by scientists at INCOIS, simplifying their work and enhancing their ability to manage and retrieve scientific documents seamlessly.",
+},
   {
     title: "Cloud Engineering Intern",
     company: "Wissen Infotech",
