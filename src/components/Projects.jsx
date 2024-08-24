@@ -30,8 +30,8 @@ const Projects = () => {
               className="h-full w-full object-cover transition-transform duration-500"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-100 backdrop-blur-lg transition-opacity duration-500">
-              <h3 className="mb-2 text-xl">{project.name}</h3>
-              <p className="mb-12 p-4 text-xs text-orange-400">{project.description}</p>
+              <h3 className="mb-2 text-sm lg:text-base text-[#0f173e]">{project.name}</h3>
+              <p className="mb-12 p-4 text-xs lg:text-sm text-[#0f173e]">{project.description}</p>
               <a
                 href={project.githubLink}
                 target="_blank"
