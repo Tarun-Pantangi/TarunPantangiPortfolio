@@ -207,7 +207,7 @@ export const CERTIFICATIONS = [
     duration: "July 2024 - July 2027",
     link: "https://drive.google.com/file/d/1doEcMkDbJvwA91fQv7VwSpcScfQiXlaD/view?usp=drive_link",
     description:
-      "Certified Scrum Master (CSM) certification demonstrates proficiency in Scrum methodology, focusing on agile project management and team collaboration.",
+      "Successfully completed the AWS Certified Solutions Architect Associate exam with a score of 910. This certification validates a comprehensive understanding of AWS services, architectural principles, and the ability to design and implement secure, scalable cloud solutions.",
   },
   {
     title: (
